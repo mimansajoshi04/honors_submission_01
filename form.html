@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        header{
+            background-color: rgba(11, 137, 187, 0.577);
+            padding: 0.5cm;
+            font-size: large;
+            text-align: center;
+            border-radius: 15px;
+            margin-left: 37%;
+            margin-right: 37%;
+
+            
+        }
+
+        form{
+            background-color: rgba(11, 137, 187, 0.758);
+            align-items: center;
+            margin-left: 23%;
+            margin-right: 23%;
+            padding: 0.5cm;
+            border-radius: 10px;
+            box-shadow: 10000000cm;
+        }
+
+        body{
+            background-color: rgba(132, 10, 189, 0.459)
+        }
+    </style>
+<head>
+    <meta charset="UTF-8" />
+    <header><b><h2>Submission-01</h2></b></header>
+</head>
+<body>
+    <br><br><center>
+    <form method="post" action="form.php">
+        <br>
+        <b>Name</b>: <input type="text" name="name" required><br><br>
+        <b>Email</b>: <input type="email" name="email" required placeholder="abc@gmail.com"><br><br>
+        <b>Gender</b>: <input type="radio" name="gender" value = "M"> Male <input type="radio" name="gender" value="F"> Female<br><br>
+
+        <b><label>City: </label></b>
+        <select name="city">
+            <option name="city" value="none">Select</option>
+            <option name="city" value="Mumbai">Mumbai</option>
+            <option name="city" value="Nagpur">Nagpur</option>
+            <option name="city" value="Pune">Pune</option>
+            <option name="city" value="London">London</option>
+            <option name="city" value="Thane">Thane</option>
+            <option name="city" value="Wardha">Wardha</option>
+            <option name="city" value="Chennai">Chennai</option>
+        </select><br><br>
+
+        <button type="submit">Submit the Query</button>
+
+        
+        <br><br>
+    </form>
+    <br><br>
+    <button><a href="data.php">Click here to view already inserted data.</a></button>
+</center>
+</body>
+</html>
